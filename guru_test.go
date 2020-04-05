@@ -8,13 +8,9 @@ import (
 
 var _ error = &withCode{}
 var _ coder = &withCode{}
-var _ causer = &withCode{}
-var _ stackTracer = &withCode{}
 
 var _ error = &wrapped{}
-var _ stackTracer = &wrapped{}
 var _ coder = &wrapped{}
-var _ causer = &wrapped{}
 
 func TestFormatWithStatus(t *testing.T) {
 	tests := []struct {

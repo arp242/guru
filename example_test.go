@@ -1,11 +1,11 @@
 package guru_test
 
 import (
+	"errors"
 	"fmt"
 	"net/http"
 
-	"github.com/pkg/errors"
-	"github.com/teamwork/guru"
+	"zgo.at/guru"
 )
 
 // Error constants.

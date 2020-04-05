@@ -1,10 +1,9 @@
 package guru
 
 import (
+	"errors"
 	"fmt"
 	"testing"
-
-	"github.com/pkg/errors"
 )
 
 func TestHTTPUserError(t *testing.T) {

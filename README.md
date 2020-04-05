@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.com/Teamwork/guru.svg?branch=master)](https://travis-ci.com/Teamwork/guru)
-[![Codecov](https://img.shields.io/codecov/c/github/Teamwork/guru.svg?style=flat)](https://codecov.io/gh/Teamwork/guru)
-[![GoDoc](https://godoc.org/github.com/Teamwork/guru?status.svg)](http://godoc.org/github.com/Teamwork/guru)
+[![Build Status](https://travis-ci.com/zgoat/guru.svg?branch=master)](https://travis-ci.com/zgoat/guru)
+[![Codecov](https://img.shields.io/codecov/c/github/zgoat/guru.svg?style=flat)](https://codecov.io/gh/zgoat/guru)
+[![GoDoc](https://godoc.org/github.com/zgoat/guru?status.svg)](http://godoc.org/github.com/zgoat/guru)
 
 The guru package allows adding a Guru Meditation Number to errors:
 
