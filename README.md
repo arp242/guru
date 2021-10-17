@@ -1,7 +1,3 @@
-[![Build Status](https://travis-ci.com/zgoat/guru.svg?branch=master)](https://travis-ci.com/zgoat/guru)
-[![Codecov](https://img.shields.io/codecov/c/github/zgoat/guru.svg?style=flat)](https://codecov.io/gh/zgoat/guru)
-[![GoDoc](https://godoc.org/github.com/zgoat/guru?status.svg)](http://godoc.org/github.com/zgoat/guru)
-
 The guru package allows adding a Guru Meditation Number to errors:
 
 ```go
@@ -42,5 +38,6 @@ func Example() {
 }
 ```
 
-guru is built on top of [github.com/pkg/errors](https://github.com/pkg/errors);
-all errors that guru returns are github.com/pkg/errors.
+It's convenient for e.g. HTTP status codes, but also other things.
+
+API docs: https://godocs.io/zgo.at/guru
