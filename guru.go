@@ -97,7 +97,7 @@ func Code(err error) int {
 		if sc, ok := err.(coder); ok {
 			return sc.Code()
 		}
-		err := errors.Unwrap(err)
+		err = errors.Unwrap(err)
 		if err == nil {
 			break
 		}

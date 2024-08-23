@@ -104,6 +104,8 @@ func TestStatusCode(t *testing.T) {
 		{errors.New("foo"), 0},
 		{New(42, "foo"), 42},
 		{Wrap(666, New(42, "foo"), "bar"), 666},
+		{fmt.Errorf("%w", Wrap(666, New(42, "foo"), "bar")), 666},
+		{fmt.Errorf("%w", fmt.Errorf("%w", Wrap(666, New(42, "foo"), "bar"))), 666},
 	}
 
 	for i, tt := range tests {
